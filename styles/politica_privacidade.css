@@ -1,0 +1,42 @@
+/* PAGINA POLITICA DE PRIVACIDADE */
+
+.infos{
+    border: 0px solid #000;
+    margin: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 2fr 2fr;
+    padding-bottom: 10px;
+}
+
+.infos_fim{
+    border: 0px solid #000;
+    margin: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#pol_priv h2{
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 60px;    
+    padding: 15px;
+}
+
+#pol_priv h4{
+    font-family: Signika Negative;
+    font-size: 25px;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+    font-weight: 500;   
+    padding: 10px;
+}
+
+#pol_priv ul{
+    list-style-type: circle;
+}
+
+/* PAGINA POLITICA DE PRIVACIDADE */
