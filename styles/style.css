@@ -4,4 +4,859 @@
     box-sizing: border-box;
 }
 
+/* <CABEÇALHO> */
+#topo_cabecalho{
+    background-color: #7C137B;
+    padding: 8px 0;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#topo_cabecalho .container{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_container {
+    width: 80px;
+}
+
+.logo_container img {
+    width: 100%;
+}
+
+.input-pesq{
+    width: 500px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cabecalho_icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho_icones img {
+    padding-left: 15px;
+    padding-right: 5px;   
+}
+
+#navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar li{
+    padding: 0 90px;
+    font-size: 16px;
+    color: #000;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar li a:hover{
+    background-color: #fcd4fc;
+    
+    /* border: 1px solid #000; */
+}
+
+#header-banner {
+    width: auto;
+}
+
+#header-banner img{
+    width: 100%;
+      border-radius: 10px;
+    border: none;
+    /* margin: 0px 0px 0px 110px;
+    padding: 0px 0px 0px 0px; */
+}
+/* <CABEÇALHO> */
+
+/* <MAIN> */
+#section_marcas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 155px;
+    column-gap: 104px;
+}
+
+.marcas_link img {
+    width: 100%;
+}
+
+.main_produtos{
+    padding-top: 80px;
+    /* display: flex; */
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.container-grid {
+    display: flex;
+    column-gap: 16px;
+}
+
+.main_titulo{
+    font-family: Signika Negative;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#main_content .main_produtos div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product_card {
+    margin-top: 30px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    /* border: 1px solid #000000; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+}
+
+.product_card .card_image_container {
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 1px solid #000000; */
+    border-color: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+}
+
+.card_image_container img{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    /* margin-left: 50px; */
+    /* font-size: 25px; */
+    object-fit: contain;
+}
+
+.product_card_title{
+    /* font-family: Signika Negative;
+    font-size: 20px;
+    font-style: normal;
+    font-optical-sizing: auto; */
+    margin-bottom: 10px;
+    font-family: Signika Negative;
+    font-size: 20px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* line-height: 16px; */
+    /* max-height: 32px; */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product_card_reference{
+    font-family: Signika Negative;
+    font-size: 20px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+}
+
+.product_card_preco{
+    font-family: Signika Negative;
+    font-size: 15px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+}
+
+.product_card_installment{
+    font-family: Signika Negative;
+    font-size: 10px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+}
+
+.product_card_btn{
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Signika Negative;
+    cursor: pointer;
+}
+
+.product_card_btn:hover{
+    background-color: #fcd4fc;
+}
+/* <MAIN> */
+
+/* <FOOTER> */
+.footer{
+    background-color: hsl(301, 73%, 28%, 75%);
+    margin-bottom: 0%;
+    font-family: Signika Negative;
+    font-size: 20px;
+}
+
+.container-grid_footer {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.intitucional{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.atendimento{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.redesSociais{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+hr{
+    border: solid 1px;
+}
+
+.container-grid_footer h5{
+    font-size: 20px;
+}
+
+.footerAbaixo{
+    background-color: hsl(301, 73%, 28%, 80%);
+    margin-bottom: 0%;
+    font-family: Signika Negative;
+    font-size: 19.5px;
+    display: flex;
+}
+
+.container-grid_footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* <FOOTER> */
+
+
+/* PAGINA PRODUTOS-CATALOGO */
+#produto .product-page-title h2{
+    font-family: Signika Negative;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#produto .product-page-title h6{
+    font-family: Signika Negative;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#produto .product-page-title{
+    border: #000;
+    border: 1px;
+    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+#produto .product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 16px;
+    padding-bottom: 100px;
+}
+
+#produto .col-1{
+    width: 70%;
+}
+
+#produto .grid-images{
+    display: flex;
+    align-items: flex-start;
+    border: 1px;
+    box-shadow: rgba(0, 0, 0, 0.04) 20px 40px 40px 10px; 
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.image-carrousel{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produto .thumb{
+    width: 80px;
+    border: 1px ;
+    /* box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04); */
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#produto .thumb img{
+    width: 100%;
+    object-fit: contain;
+}
+
+#produto .main-image-container{
+    width: 100%;
+    border: 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.04) 20px 40px 40px 10px; */
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#produto .main-image-container img{
+    object-fit: contain;
+}
+
+.product-description p{
+    font-family: Signika Negative;
+    font-size: 20px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    padding-top: 30px;
+}
+
+.product-description{
+    border: 1px;
+    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+#produto .col-2{
+    /* border: #000; */
+    /* width: 950px; */
+    border: 1px;
+    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    border-radius: 15px;
+    /* margin-top: 20px; */
+    margin-bottom: 15px;
+    /* padding: 10px 10px 10px 10px; */
+    padding: 35px 15px;
+}
+
+.price-container{
+    border: 0px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.price-container h3{
+    font-family: Signika Negative;
+    font-size: 35px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    padding-bottom: 8px;
+}
+
+.price-container p{
+    font-family: Signika Negative;
+    font-size: 20px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+}
+
+.price-container input{
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px rgb(214, 214, 214);
+    margin: 10px 0px;
+}
+
+.frete-container{
+    border: 0px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.frete-container input{
+    font-family: Signika Negative;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid #cccbcb;
+}
+
+.frete-container h5{
+    font-family: Signika Negative;
+    font-size: 15px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    padding-bottom: 8px;
+}
+
+.frete-container a{
+    font-family: Signika Negative;
+    font-size: 13px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #000;
+    margin: 10px 0px 0px 5px;
+}
+/* PAGINA PRODUTOS-CATALOGO */
+
+/* PAGINA CARRINHOS */
+
+#carrinho .carrinho_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 16px;
+    padding-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+    /* margin: 2px; */
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 12px;
+}
+
+.cart-item-info input{
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px #000; */
+    margin: 10px 0px;
+}
+
+.cart-img-container{
+    width: 80px;
+    height: 80px;
+}
+
+.cart-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.grid2 .grid1{
+    padding: 16px;
+}
+
+.total-container{
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.total-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-info h2{
+    font-size: 20px;
+}
+
+/* PAGINA CARRINHOS */
+
+/* PAGINA SOBRE NOS */
+
+#sobre-Nos .grid-sobre{
+    border: 0px solid #000;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+#sobre-Nos .grid-info{
+    border: 0px solid #000;
+    /* margin: 100px; */
+}
+
+#sobre-Nos .grid-img{
+    border: 0px solid #000;
+    /* margin: 100px; */
+    padding: 50px;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
+}
+
+#sobre-Nos h2{
+    /* font-family: "Pacifico", cursive; */
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 60px;    
+    padding: 15px;
+}
+
+#sobre-Nos h4{
+    font-family: Signika Negative;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+    font-weight: 500;   
+    padding: 10px;
+}
+
+#sobre-Nos .info2{
+    border: 0px solid #000;
+    text-align: center;
+    padding: 20px;
+}
+/* PAGINA SOBRE NOS */
+
+/* PAGINA CHECKOUT */
+
+#checkout .checkout_grid{
+    /* border: 1px solid #000; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 16px;
+    padding-bottom: 100px;
+}
+
+#checkout label{
+    display: block;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.campo_formulario {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.campo_formulario.row-1 {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+    padding:0
+}
+
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.campo_formulario label{
+    font-family: Signika Negative;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.campo_formulario input, select{
+    font-family: Signika Negative;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid #cccbcb;
+}
+
+form h2{
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;    
+    padding: 15px;
+}
+
+/* PAGINA CHECKOUT */
+
+/* PAGINA  FALE CONOSCO*/
+#fale_Conosco .grid-info_faleConosco{
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 0px solid #000;
+    margin: 15px;
+    display: grid;
+    column-gap: 16px;
+    /* padding: 20px; */
+    /* padding-bottom: 100px; */
+    align-items: center;
+    justify-content: space-around;
+    /* padding-top: 20px;
+} 
+
+#fale_Conosco .grid-atendimento{
+    border: 0px solid #000;
+    /* margin: 100px; */
+}
+
+#fale_Conosco .grid-sac{
+    border: 0px solid #000;
+    /* margin: 100px; */
+}
+
+#fale_Conosco .grid-redes{
+    border: 0px solid #000;
+    /* margin: 100px; */
+}
+
+#fale_Conosco .header-banner{
+    padding: 10px;
+}
+
+#fale_Conosco h2{
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;    
+    padding: 15px;
+}
+
+#fale_Conosco h4{
+    font-family: Signika Negative;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+    font-weight: 500;   
+    padding: 10px;
+}
+
+#fale_Conosco .formulario{
+    border: 1px solid #000;
+    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.campo_formulario {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.campo_formulario.row-1 {
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 16px;
+}
+
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.campo_formulario label{
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: Signika Negative;
+}
+
+.campo_formulario input, select{
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid #cccbcb;
+}
+
+.campo_formulario #assunto{
+    height: 50px;
+}
+
+#fale_Conosco .botao{
+    justify-content: end;
+    display: flex;
+}
+/* PAGINA  FALE CONOSCO*/
+
+/* PAGINA PERFIL */
+
+.container-login100 {
+    width: 100%;
+    min-height: 80vh;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.caixa_perfil {
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    background: #DE8ADE;
+    padding: 40px 55px 37px 55px;
+    margin: 90px;
+}
+  
+.text_button{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #791978;
+    background-color: #791978;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.caixa_perfil h1{
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;  
+    padding-bottom: 10px;  
+}
+
+.caixa_perfil input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/* PAGINA PERFIL */
+
+/* PAGINA POLITICA DE PRIVACIDADE */
+
+.infos{
+    border: 0px solid #000;
+    margin: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 2fr 2fr;
+    padding-bottom: 10px;
+}
+
+.infos_fim{
+    border: 0px solid #000;
+    margin: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#pol_priv h2{
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 60px;    
+    padding: 15px;
+}
+
+#pol_priv h4{
+    font-family: Signika Negative;
+    font-size: 25px;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+    font-weight: 500;   
+    padding: 10px;
+}
+
+#pol_priv ul{
+    list-style-type: circle;
+}
+
+/* PAGINA POLITICA DE PRIVACIDADE */
+
+/* PAGINA PRAZO DE ENVIOS */
+#pra_envio h2{
+    font-family: Signika Negative;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 60px;    
+    padding: 15px;
+}
+
+#pra_envio h4{
+    font-family: Signika Negative;
+    font-size: 25px;
+    font-optical-sizing: auto;
+    margin-bottom: 10px;
+    font-weight: 500;   
+    padding: 10px;
+}
+
+#pra_envio ul{
+    list-style-type: circle;
+}
+/* PAGINA PRAZO DE ENVIOS */
