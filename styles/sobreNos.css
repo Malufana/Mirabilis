@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* <CABEÇALHO> */
 #topo_cabecalho{
     background-color: #7C137B;
@@ -94,121 +88,59 @@
 }
 /* <CABEÇALHO> */
 
-/* PAGINA  FALE CONOSCO*/
-#fale_Conosco .grid-info_faleConosco{
-    grid-template-columns: 1fr 1fr 1fr;
+/* PAGINA SOBRE NOS */
+
+#sobre-Nos .grid-sobre{
     border: 0px solid #000;
-    margin: 15px;
-    display: grid;
-    column-gap: 16px;
-    /* padding: 20px; */
-    /* padding-bottom: 100px; */
+    margin: 10px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    /* padding-top: 20px;
 } 
 
-#fale_Conosco .grid-atendimento{
+#sobre-Nos .grid-info{
     border: 0px solid #000;
     /* margin: 100px; */
 }
 
-#fale_Conosco .grid-sac{
+#sobre-Nos .grid-img{
     border: 0px solid #000;
     /* margin: 100px; */
+    padding: 50px;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
 }
 
-#fale_Conosco .grid-redes{
-    border: 0px solid #000;
-    /* margin: 100px; */
-}
-
-#fale_Conosco .header-banner{
-    padding: 10px;
-}
-
-#fale_Conosco h2{
+#sobre-Nos h2{
+    /* font-family: "Pacifico", cursive; */
     font-family: Signika Negative;
     font-weight: 200;
     font-style: italic;
-    font-size: 40px;    
+    font-size: 60px;    
     padding: 15px;
 }
 
-#fale_Conosco h4{
+#sobre-Nos h4{
     font-family: Signika Negative;
     font-size: 20px;
+    /* font-style: normal; */
     font-optical-sizing: auto;
     margin-bottom: 10px;
     font-weight: 500;   
     padding: 10px;
 }
 
-#fale_Conosco .formulario{
-    border: 1px solid #000;
-    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    padding: 20px;
-    margin: 20px;
-}
-
-.campo_formulario {
-    display: flex;
-    padding-bottom: 10px;
-}
-
-.campo_formulario.row-1 {
-    flex-direction: row;
-    justify-content: flex-start;
-    column-gap: 16px;
-}
-
-.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.campo_formulario label{
-    font-size: 20px;
-    padding-bottom: 5px;
-    font-family: Signika Negative;
-}
-
-.campo_formulario input, select{
-    font-size: 16px;
-    padding: 4px;
-    border-radius: 10px;
-    border: 1px solid #cccbcb;
-}
-
-.campo_formulario #assunto{
-    height: 50px;
-}
-
-#fale_Conosco .botao{
-    justify-content: end;
-    display: flex;
-}
-
-button{
-    border: none;
-    border-radius: 25px;
-    display: inline-block;
-    padding: 15px 15px;
+#sobre-Nos .info2{
+    border: 0px solid #000;
     text-align: center;
-    font-size: 15px;
-    font-family: Signika Negative;
-    cursor: pointer;
+    padding: 20px;
 }
 
-button:hover{
+#sobre-Nos .info2 h4:hover{
     background-color: #fcd4fc;
 }
-
-/* PAGINA  FALE CONOSCO*/
+/* PAGINA SOBRE NOS */
 
 /* <FOOTER> */
 .footer{
@@ -265,6 +197,7 @@ hr{
     color: #000;
 }
 
+/* <FOOTER> */
 
 @media (max-width: 990px){
     * {
@@ -296,27 +229,32 @@ hr{
         text-align: center;
     }
 
-    #header-banner{
-        /* width: 390px; */
-        width: 80%;
+    #sobre-Nos .grid-sobre{
+        width: 410px;
     }
 
-    .info-formDados h2{
-        font-size: 20px;
+    #sobre-Nos .grid-info{
+        width: 205px;
     }
 
-    .info-formDados h4{
-        font-size: 15px;
+    #sobre-Nos .grid-info h2{
+        font-size: 36px;
     }
 
-    #fale_Conosco .grid-info_faleConosco h2{
-        font-size: 24px;
-        word-break: break-word;
+    #sobre-Nos .grid-info h4{
+        font-size: 13px;
     }
 
-    #fale_Conosco .grid-info_faleConosco h4{
-        font-size: 17px;
-        word-wrap: break-word;
+    #sobre-Nos .grid-img img{
+        width: 150px;
+    }
+
+    #sobre-Nos .info h2{
+        font-size: 36px;
+    }
+
+    #sobre-Nos .info h4{
+        font-size: 13px;
     }
 
     .footer{

@@ -87,128 +87,35 @@
 
 #header-banner img{
     width: 100%;
-    border-radius: 10px;
+      border-radius: 10px;
     border: none;
     /* margin: 0px 0px 0px 110px;
     padding: 0px 0px 0px 0px; */
 }
 /* <CABEÇALHO> */
 
-/* PAGINA  FALE CONOSCO*/
-#fale_Conosco .grid-info_faleConosco{
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 0px solid #000;
-    margin: 15px;
-    display: grid;
-    column-gap: 16px;
-    /* padding: 20px; */
-    /* padding-bottom: 100px; */
-    align-items: center;
-    justify-content: space-around;
-    /* padding-top: 20px;
-} 
-
-#fale_Conosco .grid-atendimento{
-    border: 0px solid #000;
-    /* margin: 100px; */
-}
-
-#fale_Conosco .grid-sac{
-    border: 0px solid #000;
-    /* margin: 100px; */
-}
-
-#fale_Conosco .grid-redes{
-    border: 0px solid #000;
-    /* margin: 100px; */
-}
-
-#fale_Conosco .header-banner{
-    padding: 10px;
-}
-
-#fale_Conosco h2{
+/* PAGINA PRAZO DE ENVIOS */
+#pra_envio h2{
     font-family: Signika Negative;
     font-weight: 200;
     font-style: italic;
-    font-size: 40px;    
+    font-size: 60px;    
     padding: 15px;
 }
 
-#fale_Conosco h4{
+#pra_envio h4{
     font-family: Signika Negative;
-    font-size: 20px;
+    font-size: 25px;
     font-optical-sizing: auto;
     margin-bottom: 10px;
     font-weight: 500;   
     padding: 10px;
 }
 
-#fale_Conosco .formulario{
-    border: 1px solid #000;
-    box-shadow: 20px 40px 40px 10px rgba(0, 0, 0, 0.04);
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    padding: 20px;
-    margin: 20px;
+#pra_envio ul{
+    list-style-type: circle;
 }
-
-.campo_formulario {
-    display: flex;
-    padding-bottom: 10px;
-}
-
-.campo_formulario.row-1 {
-    flex-direction: row;
-    justify-content: flex-start;
-    column-gap: 16px;
-}
-
-.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.campo_formulario label{
-    font-size: 20px;
-    padding-bottom: 5px;
-    font-family: Signika Negative;
-}
-
-.campo_formulario input, select{
-    font-size: 16px;
-    padding: 4px;
-    border-radius: 10px;
-    border: 1px solid #cccbcb;
-}
-
-.campo_formulario #assunto{
-    height: 50px;
-}
-
-#fale_Conosco .botao{
-    justify-content: end;
-    display: flex;
-}
-
-button{
-    border: none;
-    border-radius: 25px;
-    display: inline-block;
-    padding: 15px 15px;
-    text-align: center;
-    font-size: 15px;
-    font-family: Signika Negative;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #fcd4fc;
-}
-
-/* PAGINA  FALE CONOSCO*/
+/* PAGINA PRAZO DE ENVIOS */
 
 /* <FOOTER> */
 .footer{
@@ -265,6 +172,7 @@ hr{
     color: #000;
 }
 
+/* <FOOTER> */
 
 @media (max-width: 990px){
     * {
@@ -296,27 +204,12 @@ hr{
         text-align: center;
     }
 
-    #header-banner{
-        /* width: 390px; */
-        width: 80%;
+    #pra_envio .infos h2{
+        font-size: 40px;
     }
 
-    .info-formDados h2{
-        font-size: 20px;
-    }
-
-    .info-formDados h4{
-        font-size: 15px;
-    }
-
-    #fale_Conosco .grid-info_faleConosco h2{
-        font-size: 24px;
-        word-break: break-word;
-    }
-
-    #fale_Conosco .grid-info_faleConosco h4{
-        font-size: 17px;
-        word-wrap: break-word;
+    #pra_envio .infos h4{
+        font-size: 18px;
     }
 
     .footer{
